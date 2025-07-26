@@ -1,13 +1,11 @@
 from dotenv import load_dotenv
 from langchain.globals import set_debug
 
-from src.service.ConectandoComModelos import exemplo_com_gemini_langchain
-from src.service.LCELCadeia import usando_cadeia_de_regras_com_obj
-from src.service.LCELChatHistory import usando_chat_history
+from src.service.RAGservice import pesquisa_com_documento_txt
 
 if __name__ == "__main__":
-    set_debug(True)
+    set_debug(False)
     load_dotenv()
-    usando_chat_history()
+    pesquisa_com_documento_txt()
 
 

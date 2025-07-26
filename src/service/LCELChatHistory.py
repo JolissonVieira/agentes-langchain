@@ -82,7 +82,7 @@ def usando_chat_history():
         {
             "dados":dados_entrada
         },
-        config={"session_id": "estudo_curso_alur"}
+        config={"session_id": "estudo_curso_alura"}
     )
 
     print(resultado)
